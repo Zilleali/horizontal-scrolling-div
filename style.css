@@ -1,0 +1,41 @@
+*{
+    inset: 0;
+}
+.logo-container{
+    height: 100px;
+    width: 1186px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    height: 83px;
+    background: #081921;
+    border-radius: 20px;
+}
+
+.container{
+height: 200px;
+/* If you want custom width you enable It  */
+/* width: 1024px; */
+overflow-x: scroll;
+background: #081921;
+padding: 2%;
+border-radius: 25px;
+box-shadow: 0 4px 8px  0 #00ffff, 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.container-img{
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    box-shadow: 5px 5px 15px #000000 ;
+}
+
